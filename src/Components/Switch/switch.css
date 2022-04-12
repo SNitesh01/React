@@ -1,0 +1,25 @@
+.mswitch{
+    height: 65px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 30vh;
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    transition: all ease 0.5s;
+
+    
+}
+.mswitch.active{
+    justify-content: end;
+    transition: all ease 0.5s;
+}
+.mswitch .circle{
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+
+
+}
