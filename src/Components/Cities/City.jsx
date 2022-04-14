@@ -26,7 +26,7 @@ const UpdateCities = (e) => {
 
   return (
     <div>
-        <input type="text" placeholder="Enter City" onKeyUp={UpdateCities} style={{marginLeft:"30px"}} />
+        <input className='mt-4' type="text" placeholder="Enter City" onKeyUp={UpdateCities} style={{listStyle:"none"}} />
         <div>{renderCities()}</div>
     </div>
   )

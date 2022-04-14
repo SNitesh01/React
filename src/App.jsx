@@ -1,11 +1,15 @@
 import React from 'react'
 import Avtar from './Components/Avtar/Avtar';
+import { Bulb } from './Components/Bulb/Bulb';
 import { City } from './Components/Cities/City';
-import { Counter } from './Components/Counter/Counter';
+import Countr from './Components/Class_counter/countr';
+import Counter from './Components/Countr/Counter';
 import { Header } from './Components/Home/Header'
 import Persons from './Components/persond/Persons';
 import Rating from './Components/Ratings/Rating';
 import { Switch } from './Components/Switch/Switch';
+import { Tasks } from './Components/Tasks/Tasks';
+
 
 
 function App(){
@@ -19,6 +23,11 @@ function App(){
       <City />    
       <Switch />  
       <Counter value={3}/>
+      <Tasks />
+      <Countr />
+      <Bulb />
+      
+      
       </>
 
   );

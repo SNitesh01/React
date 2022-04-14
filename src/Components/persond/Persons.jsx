@@ -11,7 +11,7 @@ import "./ui.css"
          {Employ.map((el=>(
              
          <div className='col-6' style={{marginLeft:"30%", fontSize:"15px"}} >
-           <table className="table">
+           <table className="table mt-5">
               <thead>
                 <tr>
                   <th scope="col">#id</th>

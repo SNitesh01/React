@@ -13,9 +13,13 @@ function Counter({ value }) {
 
   return (
     <div>
-      <button onClick={decrement}>-</button>
-      {counter}
-      <button onClick={increment}>+</button>
+      <div className="btnwraper mt-5">
+        <button onClick={decrement}>-</button>
+        {counter}
+        <button onClick={increment}>+</button>
+
+      </div>
+     
     </div>
   );
 }

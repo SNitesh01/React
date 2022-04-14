@@ -1,0 +1,25 @@
+.bulb-off,
+.bulb-on {
+  width: 100vh;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+
+.bulb-off {
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg");
+
+ }
+
+.bulb-on {
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg");
+    
+ }
+
+button {
+  margin-top: 20px;
+  margin-left: 10px;
+}

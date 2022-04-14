@@ -1,0 +1,21 @@
+.m-task{
+    height: 55px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: crimson;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.m-task.done{
+    background-color: rgb(158, 236, 158);
+    color: black
+}
+.controls{
+    margin: 5px;
+}
