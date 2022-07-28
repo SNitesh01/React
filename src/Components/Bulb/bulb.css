@@ -1,11 +1,12 @@
 .bulb-off,
 .bulb-on {
-  width: 100vh;
-  height: 100vh;
+  width: 150px;
+  height: 150px;
   background-repeat: no-repeat;
   background-size: 100%;
   display: inline-block;
   border: 1px solid red;
+  margin-top: 25px;
 }
 
 

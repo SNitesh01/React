@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Task } from './Task';
 
 
@@ -12,6 +12,15 @@ export const Tasks = () => {
         { id: 5, title: "Go to Market", isComplete: false },
         { id: 6, title: "Go to Park", isComplete: true },
       ]);
+
+      useEffect(() => {
+        console.log('component initialize')
+      }, [tasks])
+
+      useEffect(() => {
+        console.log('component update')
+      }, [])
+      
 
       const updateStatus = (id, status) => {
         let index = tasks.findIndex(t => t.id === id);

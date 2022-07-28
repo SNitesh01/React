@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./avtar.css";
 
 
@@ -12,9 +13,18 @@ const Avtar = ({name, image}) => {
     };
     
   return (
+   <>
     <div className='avtar' style={{background: `url(${image})`, border: !image && "1px solid black",}}>
          <h4>{getinti(name)}</h4>
     </div>
+    <Link to='/person' className='nav-link text-center'>
+       <button className='btn btn-primary'>view</button>
+    </Link>
+   
+
+  
+   
+   </>
   )
 }
 

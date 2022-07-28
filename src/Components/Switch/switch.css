@@ -6,20 +6,20 @@
     padding: 5px;
     border-radius: 25px;
     display: flex;
-    transition: all ease 0.5s;
+    transition: all ease 1s;
 
     
 }
 .mswitch.active{
     justify-content: end;
-    transition: all ease 0.5s;
+    transition: all ease 1s;
 }
 .mswitch .circle{
     height: 55px;
     width: 55px;
     background-color: black;
     border-radius: 50%;
-    transition: all ease 0.5s;
+    transition: all ease 2s;
 
 
 }
